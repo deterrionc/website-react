@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import axios from 'axios'
 
 const api = axios.create({
-  baseURL: 'https://dcgonboarding.com/api',
+  baseURL: '/api',
   headers: {
     'Content-Type': 'application/json',
   }
