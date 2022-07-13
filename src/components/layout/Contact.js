@@ -1,7 +1,25 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import axios from 'axios'
+
+const api = axios.create({
+  baseURL: 'https://dcgonboarding.com/api',
+  headers: {
+    'Content-Type': 'application/json',
+  }
+})
 
 const Contact = () => {
+
+  const [name, setName] = React.useState('')
+  const [email, setEmail] = React.useState('')
+  const [subject, setSubject] = React.useState('')
+  const [message, setMessage] = React.useState('')
+
+  const onSubmit = e => {
+    e.preventDefault()
+    api.post('/email', {name, email, subject, message})
+  }
 
   return (
     <div className='container-fluid bg-dark min-vh-100'>
@@ -10,22 +28,22 @@ const Contact = () => {
           <ul className='list-group'>
             <li className='list-group-item text-center bg-transparent border-0 p-2' data-toggle="tooltip" data-placement="top" title="HOME">
               <Link to='/'>
-                <i className='fa fa-home h5 width-30 bg-secondary border border-dark rounded-pill'></i>
+                <i className='fa fa-home h5 width-30 bg-secondary border border-secondary rounded-pill'></i>
               </Link>
             </li>
             <li className='list-group-item text-center bg-transparent border-0 p-2' data-toggle="tooltip" data-placement="top" title="ABOUT ME">
               <Link to='/about'>
-                <i className='fa fa-user-circle-o h5 width-30 bg-secondary border border-dark rounded-pill'></i>
+                <i className='fa fa-user-circle-o h5 width-30 bg-secondary border border-secondary rounded-pill'></i>
               </Link>
             </li>
             <li className='list-group-item text-center bg-transparent border-0 p-2' data-toggle="tooltip" data-placement="top" title="PORTFOLIO">
               <Link to='/portfolio'>
-                <i className='fa fa-briefcase h5 width-30 bg-secondary border border-dark rounded-pill'></i>
+                <i className='fa fa-briefcase h5 width-30 bg-secondary border border-secondary rounded-pill'></i>
               </Link>
             </li>
             <li className='list-group-item text-center bg-transparent border-0 p-2' data-toggle="tooltip" data-placement="top" title="CONTACT">
               <Link to='/contact'>
-                <i className='fa fa-envelope-open h5 width-30 bg-info border border-dark rounded-pill'></i>
+                <i className='fa fa-envelope-open h5 width-30 bg-info border border-info rounded-pill'></i>
               </Link>
             </li>
           </ul>
@@ -80,13 +98,15 @@ const Contact = () => {
                 </div>
               </div>
               <div className='col-md-8 py-2'>
-                <form className='form'>
+                <form className='form' onSubmit={onSubmit}>
                   <div className='row'>
                     <div className='col-md-6 mb-4 pb-2'>
                       <input
                         className='form-control form-control-lg rounded-pill bg-secondary border-0'
                         placeholder='YOUR NAME'
                         required
+                        value={name}
+                        onChange={e => setName(e.target.value)}
                       />
                     </div>
                     <div className='col-md-6 mb-4 pb-2'>
@@ -95,6 +115,8 @@ const Contact = () => {
                         className='form-control form-control-lg rounded-pill bg-secondary border-0'
                         placeholder='YOUR EMAIL'
                         required
+                        value={email}
+                        onChange={e => setEmail(e.target.value)}
                       />
                     </div>
                     <div className='col-md-12 mb-4 pb-2'>
@@ -102,6 +124,8 @@ const Contact = () => {
                         className='form-control form-control-lg rounded-pill bg-secondary border-0'
                         placeholder='YOUR SUBJECT'
                         required
+                        value={subject}
+                        onChange={e => setSubject(e.target.value)}
                       />
                     </div>
                     <div className='col-md-12 mb-4 pb-2'>
@@ -110,6 +134,8 @@ const Contact = () => {
                         placeholder='YOUR MESSAGE'
                         rows={6}
                         required
+                        value={message}
+                        onChange={e => setMessage(e.target.value)}
                       />
                     </div>
                     <div className='col-md-12 mb-5 pb-5'>

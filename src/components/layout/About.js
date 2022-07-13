@@ -10,22 +10,22 @@ const About = () => {
           <ul className='list-group'>
             <li className='list-group-item text-center bg-transparent border-0 p-2' data-toggle="tooltip" data-placement="top" title="HOME">
               <Link to='/'>
-                <i className='fa fa-home h5 width-30 bg-secondary border border-dark rounded-pill'></i>
+                <i className='fa fa-home h5 width-30 bg-secondary border border-secondary rounded-pill'></i>
               </Link>
             </li>
             <li className='list-group-item text-center bg-transparent border-0 p-2' data-toggle="tooltip" data-placement="top" title="ABOUT ME">
               <Link to='/about'>
-                <i className='fa fa-user-circle-o h5 width-30 bg-info border border-dark rounded-pill'></i>
+                <i className='fa fa-user-circle-o h5 width-30 bg-info border border-info rounded-pill'></i>
               </Link>
             </li>
             <li className='list-group-item text-center bg-transparent border-0 p-2' data-toggle="tooltip" data-placement="top" title="PORTFOLIO">
               <Link to='/portfolio'>
-                <i className='fa fa-briefcase h5 width-30 bg-secondary border border-dark rounded-pill'></i>
+                <i className='fa fa-briefcase h5 width-30 bg-secondary border border-secondary rounded-pill'></i>
               </Link>
             </li>
             <li className='list-group-item text-center bg-transparent border-0 p-2' data-toggle="tooltip" data-placement="top" title="CONTACT">
               <Link to='/contact'>
-                <i className='fa fa-envelope-open h5 width-30 bg-secondary border border-dark rounded-pill'></i>
+                <i className='fa fa-envelope-open h5 width-30 bg-secondary border border-secondary rounded-pill'></i>
               </Link>
             </li>
           </ul>
@@ -263,23 +263,60 @@ const About = () => {
               </div>
             </div>
 
-            <div className='row text-white'>
+            <div className='row text-white py-5'>
               <div className='col-12 text-center py-3 pt-5 h3'>
                 EXPERIENCE & EDUCATION
               </div>
               <div className='col-md-6'>
                 <div className='d-flex py-3'>
-                  <div className='text-center mr-4'><i className='fa fa-institution h5 width-30 bg-info border border-dark rounded-pill'></i></div>
+                  <div className='text-center mr-4'><i className='fa fa-institution h5 width-30 bg-info border border-info rounded-pill'></i></div>
                   <div>
-                    <div className='badge badge-dark'>2018 - 2021</div>
-                    <div className='py-2'><span className='h5 font-weight-bold'>WEB DEVELOPER - </span>ENVATO</div>
-                    <div>Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit</div>
+                    <div className='badge badge-dark'>Mar 2020 - Jun 2022</div>
+                    <div className='pt-2'><span className='h5 font-weight-bold'>Blockchain and Web Full Stack Developer</span></div>
+                    <div className='py-2'>Silicon Slopes Consulting LLC, Utah, United States</div>
+                  </div>
+                </div>
+                <div className='d-flex py-3'>
+                  <div className='text-center mr-4'><i className='fa fa-institution h5 width-30 bg-info border border-info rounded-pill'></i></div>
+                  <div>
+                    <div className='badge badge-dark'>Aug 2018 - Feb 2020</div>
+                    <div className='pt-2'><span className='h5 font-weight-bold'>Full Stack Web Developer</span></div>
+                    <div className='py-2'>Speed Pro Tech INC, Toronto, Canada</div>
+                  </div>
+                </div>
+                <div className='d-flex py-3'>
+                  <div className='text-center mr-4'><i className='fa fa-institution h5 width-30 bg-info border border-info rounded-pill'></i></div>
+                  <div>
+                    <div className='badge badge-dark'>Jan 2018 - Aug 2018</div>
+                    <div className='pt-2'><span className='h5 font-weight-bold'>Database Administrator and Frontend Developer</span></div>
+                    <div className='py-2'>Coco Creates LLC, Toronto, Canada </div>
+                  </div>
+                </div>
+                <div className='d-flex py-3'>
+                  <div className='text-center mr-4'><i className='fa fa-institution h5 width-30 bg-info border border-info rounded-pill'></i></div>
+                  <div>
+                    <div className='badge badge-dark'>Aug 2016 - Dec 2017</div>
+                    <div className='pt-2'><span className='h5 font-weight-bold'>Software Quality Assurance (QA) Engineer</span></div>
+                    <div className='py-2'>Sartty Pixel Age, Mississauga, Canada</div>
+                  </div>
+                </div>
+                <div className='d-flex py-3'>
+                  <div className='text-center mr-4'><i className='fa fa-institution h5 width-30 bg-info border border-info rounded-pill'></i></div>
+                  <div>
+                    <div className='badge badge-dark'>Jun 2013 - May 2016</div>
+                    <div className='pt-2'><span className='h5 font-weight-bold'>Application Software Developer</span></div>
+                    <div className='py-2'>Tangram INC LLC, Mississauga, Canada</div>
                   </div>
                 </div>
               </div>
               <div className='col-md-6'>
-                <div className='d-flex py-3'>
-                  <div className='text-center'><i className='fa fa-graduation-cap h5 width-30 bg-info border border-dark rounded-pill'></i></div>
+              <div className='d-flex py-3'>
+                  <div className='text-center mr-4'><i className='fa fa-institution h5 width-30 bg-info border border-info rounded-pill'></i></div>
+                  <div>
+                    <div className='badge badge-dark'>2015</div>
+                    <div className='pt-2'><span className='h5 font-weight-bold'>Bachelor of Science - Computer Science</span></div>
+                    <div className='py-2'>University of Toronto, ON, Canada</div>
+                  </div>
                 </div>
               </div>
             </div>

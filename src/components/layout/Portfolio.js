@@ -10,22 +10,22 @@ const Portfolio = () => {
           <ul className='list-group'>
             <li className='list-group-item text-center bg-transparent border-0 p-2' data-toggle="tooltip" data-placement="top" title="HOME">
               <Link to='/'>
-                <i className='fa fa-home h5 width-30 bg-secondary border border-dark rounded-pill'></i>
+                <i className='fa fa-home h5 width-30 bg-secondary border border-secondary rounded-pill'></i>
               </Link>
             </li>
             <li className='list-group-item text-center bg-transparent border-0 p-2' data-toggle="tooltip" data-placement="top" title="ABOUT ME">
               <Link to='/about'>
-                <i className='fa fa-user-circle-o h5 width-30 bg-secondary border border-dark rounded-pill'></i>
+                <i className='fa fa-user-circle-o h5 width-30 bg-secondary border border-secondary rounded-pill'></i>
               </Link>
             </li>
             <li className='list-group-item text-center bg-transparent border-0 p-2' data-toggle="tooltip" data-placement="top" title="PORTFOLIO">
               <Link to='/portfolio'>
-                <i className='fa fa-briefcase h5 width-30 bg-info border border-dark rounded-pill'></i>
+                <i className='fa fa-briefcase h5 width-30 bg-info border border-info rounded-pill'></i>
               </Link>
             </li>
             <li className='list-group-item text-center bg-transparent border-0 p-2' data-toggle="tooltip" data-placement="top" title="CONTACT">
               <Link to='/contact'>
-                <i className='fa fa-envelope-open h5 width-30 bg-secondary border border-dark rounded-pill'></i>
+                <i className='fa fa-envelope-open h5 width-30 bg-secondary border border-secondary rounded-pill'></i>
               </Link>
             </li>
           </ul>

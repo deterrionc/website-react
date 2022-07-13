@@ -23,10 +23,15 @@ a:hover {
 
 a i:hover {
   background-color: #17a2b8 !important;
+  border-color: #17a2b8 !important;
 }
 
 .bg-dark {
   background-color: #111 !important;
+}
+
+.border-secondary {
+  border-color: #252525 !important;
 }
 
 .bg-secondary {
@@ -37,7 +42,7 @@ a i:hover {
   width: 50px;
   height: 50px;
   line-height: 46px;
-  border-color: #171717 !important;
+  border-color: #171717;
   border-width: 2px !important;
 }
 
