@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 import axios from 'axios'
 
 const api = axios.create({
-  baseURL: '/api',
   headers: {
     'Content-Type': 'application/json',
   }
@@ -18,7 +17,11 @@ const Contact = () => {
 
   const onSubmit = e => {
     e.preventDefault()
-    api.post('/email', {name, email, subject, message})
+    if (window.location.hostname === 'felix-moore.netlify.app') {
+      api.post('https://dcgonboarding.com/api/email', {name, email, subject, message})
+    } else {
+      api.post('/api/email', {name, email, subject, message})
+    }
   }
 
   return (
