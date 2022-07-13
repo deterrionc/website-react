@@ -4,6 +4,7 @@ import axios from 'axios'
 
 const api = axios.create({
   headers: {
+    "Access-Control-Allow-Origin": "*",
     'Content-Type': 'application/json',
   }
 })
@@ -17,11 +18,11 @@ const Contact = () => {
 
   const onSubmit = e => {
     e.preventDefault()
-    if (window.location.hostname === 'felix-moore.netlify.app') {
-      api.post('https://dcgonboarding.com/api/email', {name, email, subject, message})
-    } else {
+    // if (window.location.hostname === 'felix-moore.netlify.app') {
+    //   api.post('https://dcgonboarding.com/api/email', {name, email, subject, message})
+    // } else {
       api.post('/api/email', {name, email, subject, message})
-    }
+    // }
   }
 
   return (
