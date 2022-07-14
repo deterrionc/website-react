@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import axios from 'axios'
+import { NotificationContainer, NotificationManager } from 'react-notifications'
+import 'react-notifications/lib/notifications.css'
 
 const api = axios.create({
   headers: {
@@ -15,14 +17,22 @@ const Contact = () => {
   const [subject, setSubject] = React.useState('')
   const [message, setMessage] = React.useState('')
 
-  const onSubmit = e => {
+  const onSubmit = async (e) => {
     e.preventDefault()
-    api.post('https://dcgonboarding.com/api/email', { name, email, subject, message })
+    const res = await api.post('https://dcgonboarding.com/api/email', { name, email, subject, message })
+    if (res.data.success) {
+      setName('')
+      setEmail('')
+      setSubject('')
+      setMessage('')
+      NotificationManager.success('Success message', 'Message Sent!', 2000)
+    }
   }
 
   return (
     <div className='container-fluid bg-dark min-vh-100'>
       <div className='row'>
+        <NotificationContainer />
         <div className="header">
           <ul className='list-group'>
             <li className='list-group-item text-center bg-transparent border-0 p-2' data-toggle="tooltip" data-placement="top" title="HOME">
