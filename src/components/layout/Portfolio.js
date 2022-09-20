@@ -84,6 +84,7 @@ const Portfolio = () => {
                   I've developed the keto get-diet system based on the keto-diet algorithms. And also built the integrated keto web app including keto diet recipes, meal-plans, products, courses and etc. 
                 </div>
                 <div className='py-2'><a className='text-info' href='https://myketomarketplace.com' target='_blink' rel='noreferrer'>https://myketomarketplace.com</a></div>
+                <div className='py-2'><a className='text-info' href='https://www.theketolife.online' target='_blink' rel='noreferrer'>https://www.theketolife.online</a></div>
                 <div className='py-2'><a className='text-info' href='http://mealplan.theketolife.online' target='_blink' rel='noreferrer'>http://mealplan.theketolife.online</a></div>
                 <div className='py-2'><a className='text-info' href='https://www.customketodiet.com/get-diet' target='_blink' rel='noreferrer'>https://www.customketodiet.com/get-diet</a></div>
                 <div className='py-2'><a className='text-info' href='https://ketodietapp.com/Blog/page/KetoDiet-Buddy' target='_blink' rel='noreferrer'>https://ketodietapp.com/Blog/page/KetoDiet-Buddy</a></div>
