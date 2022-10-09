@@ -74,14 +74,14 @@ const Contact = () => {
                   <i className='fa fa-map text-info mr-3' style={{ fontSize: '30px' }}></i>
                   <div>
                     <div>ADDRESS POINT</div>
-                    <div className='font-weight-bold'>73 Widdicombe Hill Blvd, Toronto, Ontario, Canada M9R 4B3</div>
+                    <div className='font-weight-bold'>4669 W Irlo Bronson Memorial Hwy, Kissimmee, Florida</div>
                   </div>
                 </div>
                 <div className='d-flex align-items-center py-3'>
                   <i className='fa fa-envelope-open text-info mr-3' style={{ fontSize: '30px' }}></i>
                   <div>
                     <div>MAIL ME</div>
-                    <div className='font-weight-bold'>felixsolutions001@gmail.com</div>
+                    <div className='font-weight-bold'>ferix.moore@gmail.com</div>
                   </div>
                 </div>
                 <div className='d-flex align-items-center py-3'>
@@ -96,7 +96,7 @@ const Contact = () => {
                     <a target='_blank' rel='noreferrer' href='https://join.skype.com/invite/Gbcyv0Y6OQVk'><i className='fa fa-skype h5 width-30 bg-secondary rounded-pill' style={{ paddingTop: '2px' }}></i></a>
                   </div>
                   <div className='mx-2 text-center'>
-                    <a target='_blank' rel='noreferrer' href='https://www.linkedin.com/in/felix-moore-8a366622b'><i className='fa fa-linkedin h5 width-30 bg-secondary rounded-pill' style={{ paddingTop: '2px' }}></i></a>
+                    <a target='_blank' rel='noreferrer' href='https://www.linkedin.com/in/moore-felix'><i className='fa fa-linkedin h5 width-30 bg-secondary rounded-pill' style={{ paddingTop: '2px' }}></i></a>
                   </div>
                   <div className='mx-2 text-center'>
                     <a target='_blank' rel='noreferrer' href='https://t.me/daskiro'><i className='fa fa-telegram h5 width-30 bg-secondary rounded-pill' style={{ paddingTop: '2px' }}></i></a>

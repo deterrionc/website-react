@@ -54,8 +54,8 @@ const Landing = () => {
           <div className='p-5 text-white'>
             <h1>Hi, I'm Felix,</h1>
             <h2>a software engineer specialized in </h2>
-            <h2>both <u>front-end</u> and <u>back-end</u></h2>
-            <h4 className='text-justify pt-4'>I'm a Toronto based web & app designer & developer focused on crafting clean & user-friendly experiences, I am passionate about building excellent software that improves the lives of those around me.</h4>
+            <h2>both <u>Back-end</u> and <u>Front-end</u></h2>
+            <h4 className='text-justify pt-4'>I'm a Kissimmee, Florida based web & app designer & developer focused on crafting clean & user-friendly experiences, I am passionate about building excellent software that improves the lives of those around me.</h4>
             <div className='p-2 pt-4'>
               <Link to='/about' className='btn btn-lg rounded-pill blue-transparent text-white'>MORE ABOUT ME <i className='fa fa-arrow-circle-o-right'></i></Link>
             </div>

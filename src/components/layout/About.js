@@ -55,9 +55,9 @@ const About = () => {
                   </div>
                   <div className='col-md-6 py-3'>
                     <div className='py-2 text-secondary'>Last Name: <span className='text-white font-weight-bold'>Moore</span></div>
-                    <div className='py-2 text-secondary'>Nationality: <span className='text-white font-weight-bold'>Canadian</span></div>
-                    <div className='py-2 text-secondary'>Address: <span className='text-white font-weight-bold'>Toronto, ON, CA</span></div>
-                    <div className='py-2 text-secondary'>Email: <span className='text-white font-weight-bold'>progdev77@gmail.com</span></div>
+                    <div className='py-2 text-secondary'>Nationality: <span className='text-white font-weight-bold'>USA</span></div>
+                    <div className='py-2 text-secondary'>Address: <span className='text-white font-weight-bold'>Kissimmee, Florida</span></div>
+                    <div className='py-2 text-secondary'>Email: <span className='text-white font-weight-bold'>ferix.moore@gmail.com</span></div>
                     <div className='py-2 text-secondary'>Languages: <span className='text-white font-weight-bold'>English, French</span></div>
                   </div>
                 </div>
@@ -157,8 +157,8 @@ const About = () => {
               <div className='col-md-6 text-center'>
                 <div className='row'>
                   <div className='col-6 py-4'>
-                    <ProgressBar strokeWidth={8} percentage={74} />
-                    <div className='pt-3 h6'>Ruby On Rails</div>
+                    <ProgressBar strokeWidth={8} percentage={91} strokeColor='#4CAF50' />
+                    <div className='pt-3 h6'>Golang</div>
                   </div>
                   <div className='col-6 py-4'>
                     <ProgressBar strokeWidth={8} percentage={88} />
@@ -271,8 +271,8 @@ const About = () => {
                 <div className='d-flex py-3'>
                   <div className='text-center mr-4'><i className='fa fa-institution h5 width-30 bg-info border border-info rounded-pill'></i></div>
                   <div>
-                    <div className='badge badge-dark'>Mar 2020 - Jun 2022</div>
-                    <div className='pt-2'><span className='h5 font-weight-bold'>Blockchain and Web Full Stack Developer</span></div>
+                    <div className='badge badge-dark'>Mar 2020 - Sep 2022</div>
+                    <div className='pt-2'><span className='h5 font-weight-bold'>Senior Backend Developer</span></div>
                     <div className='py-2'>Silicon Slopes Consulting LLC, Utah, United States</div>
                   </div>
                 </div>
