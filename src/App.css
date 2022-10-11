@@ -46,6 +46,10 @@ a i:hover {
   border-width: 2px !important;
 }
 
+.width-120 {
+  width: 100px;
+}
+
 .rounded-xl {
   border-radius: 25px;
 }

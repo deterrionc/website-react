@@ -47,18 +47,18 @@ const About = () => {
                 <div className='h3 pb-2'>PERSONAL INFOS</div>
                 <div className='row'>
                   <div className='col-md-6 py-3'>
-                    <div className='py-2 text-secondary'>First Name: <span className='text-white font-weight-bold'>Felix</span></div>
-                    <div className='py-2 text-secondary'>Age: <span className='text-white font-weight-bold'>31 Years</span></div>
-                    <div className='py-2 text-secondary'>Availability: <span className='text-white font-weight-bold'>Yes</span></div>
-                    <div className='py-2 text-secondary'>Phone: <span className='text-white font-weight-bold'>+1 774 277 9991</span></div>
-                    <div className='py-2 text-secondary'>Skype: <span className='text-white font-weight-bold'>live:.cid.790cf9cb35d04526</span></div>
+                    <div className='py-2 text-secondary d-flex'><span className='width-120'>First Name: </span><span className='text-white font-weight-bold'>Felix</span></div>
+                    <div className='py-2 text-secondary d-flex'><span className='width-120'>Age: </span><span className='text-white font-weight-bold'>31 Years</span></div>
+                    <div className='py-2 text-secondary d-flex'><span className='width-120'>Availability: </span><span className='text-white font-weight-bold'>Yes</span></div>
+                    <div className='py-2 text-secondary d-flex'><span className='width-120'>Phone: </span><span className='text-white font-weight-bold'>+1 774 277 9991</span></div>
+                    <div className='py-2 text-secondary d-flex'><span className='width-120'>Skype: </span><span className='text-white font-weight-bold'>live:.cid.790cf9cb35d04526</span></div>
                   </div>
                   <div className='col-md-6 py-3'>
-                    <div className='py-2 text-secondary'>Last Name: <span className='text-white font-weight-bold'>Moore</span></div>
-                    <div className='py-2 text-secondary'>Nationality: <span className='text-white font-weight-bold'>USA</span></div>
-                    <div className='py-2 text-secondary'>Address: <span className='text-white font-weight-bold'>Kissimmee, Florida</span></div>
-                    <div className='py-2 text-secondary'>Email: <span className='text-white font-weight-bold'>ferix.moore@gmail.com</span></div>
-                    <div className='py-2 text-secondary'>Languages: <span className='text-white font-weight-bold'>English, French</span></div>
+                    <div className='py-2 text-secondary d-flex'><span className='width-120'>Last Name: </span><span className='text-white font-weight-bold'>Moore</span></div>
+                    <div className='py-2 text-secondary d-flex'><span className='width-120'>Nationality: </span><span className='text-white font-weight-bold'>USA</span></div>
+                    <div className='py-2 text-secondary d-flex'><span className='width-120'>Address: </span><span className='text-white font-weight-bold'>Kissimmee, Florida</span></div>
+                    <div className='py-2 text-secondary d-flex'><span className='width-120'>Email: </span><span className='text-white font-weight-bold'>ferix.moore@gmail.com</span></div>
+                    <div className='py-2 text-secondary d-flex'><span className='width-120'>Languages: </span><span className='text-white font-weight-bold'>English, French</span></div>
                   </div>
                 </div>
                 <div className='p-2 pt-4'>
@@ -288,7 +288,7 @@ const About = () => {
                   <div className='text-center mr-4'><i className='fa fa-institution h5 width-30 bg-info border border-info rounded-pill'></i></div>
                   <div>
                     <div className='badge badge-dark'>Jan 2018 - Aug 2018</div>
-                    <div className='pt-2'><span className='h5 font-weight-bold'>Database Administrator and Frontend Developer</span></div>
+                    <div className='pt-2'><span className='h5 font-weight-bold'>Database Administrator and Backend Developer</span></div>
                     <div className='py-2'>Coco Creates LLC, Toronto, Canada </div>
                   </div>
                 </div>
@@ -296,7 +296,7 @@ const About = () => {
                   <div className='text-center mr-4'><i className='fa fa-institution h5 width-30 bg-info border border-info rounded-pill'></i></div>
                   <div>
                     <div className='badge badge-dark'>Aug 2016 - Dec 2017</div>
-                    <div className='pt-2'><span className='h5 font-weight-bold'>Software Quality Assurance (QA) Engineer</span></div>
+                    <div className='pt-2'><span className='h5 font-weight-bold'>Backend Developer</span></div>
                     <div className='py-2'>Sartty Pixel Age, Mississauga, Canada</div>
                   </div>
                 </div>
